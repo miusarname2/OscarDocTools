@@ -1,0 +1,21 @@
+{
+    "name": "miusarname/ultimate_converter_php",
+    "description": "Ultima Converter is a versatile and efficient tool designed to facilitate the conversion of files between the most common formats. With this project, users can quickly transform their documents and visual files into PDF format, simplifying everyday tasks and improving compatibility for sharing information.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Miusarname\\UltimateConverterPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "miusarname"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^7.1",
+        "phpoffice/phpspreadsheet": "1.8.2",
+        "paragonie/random_compat": "2.0.21"
+    }
+}
